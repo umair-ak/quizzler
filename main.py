@@ -1,5 +1,5 @@
 import data
-import UI as u
+from UI import*
 dt = data.Data()
 ques = dt.getQuestions()
-scr = u.UI()
+scr = UI()
