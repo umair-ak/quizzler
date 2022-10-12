@@ -1,5 +1,5 @@
 import data
-from UI import*
+from quizlogicandinterface import*
 dt = data.Data()
-ques = dt.getQuestions()
-scr = UI()
+start = QuizLogicAndInterface(dt)
+
